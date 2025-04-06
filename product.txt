@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products - Personalized Creative Hands</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #fffaf7;
+      font-family: 'Georgia', serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fceae8;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #e5c1c5;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Brush Script MT', cursive;
+      color: #c77d7d;
+      font-size: 36px;
+    }
+    .product-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 40px;
+    }
+    .product-card {
+      background-color: #fff;
+      border: 1px solid #f1c4c4;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+    .product-info {
+      padding: 15px;
+      text-align: center;
+    }
+    .product-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #b46a6a;
+      margin: 10px 0;
+    }
+    .product-price {
+      color: #666;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Our Handmade Collection</h1>
+</header>
+
+<section class="product-gallery">
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0045.jpg" alt="White Floral Necklace">
+    <div class="product-info">
+      <div class="product-title">Gold Plated Pearl Studded White Floral Necklace</div>
+      <div class="product-price">₹250</div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0046.jpg" alt="Love Pendant">
+    <div class="product-info">
+      <div class="product-title">Rose Gold Love Pendant Chain</div>
+      <div class="product-price">₹200</div>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0047.jpg" alt="Love Pendant Variants">
+    <div class="product-info">
+      <div class="product-title">Multiple Views - Love Pendant</div>
+      <div class="product-price">₹200</div>
+    </div>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0048.jpg" alt="Dangling Earrings">
+    <div class="product-info">
+      <div class="product-title">Customized Dangling Earrings</div>
+      <div class="product-price">₹300</div>
+    </div>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0049.jpg" alt="Crochet Earrings">
+    <div class="product-info">
+      <div class="product-title">Customized Crochet Earrings</div>
+      <div class="product-price">₹250</div>
+    </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0055.jpg" alt="Jewelry Poster 1">
+    <div class="product-info">
+      <div class="product-title">Jewelry Display Poster</div>
+      <div class="product-price">-</div>
+    </div>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0056.jpg" alt="Jewelry Poster 2">
+    <div class="product-info">
+      <div class="product-title">Elegant Handmade Sets</div>
+      <div class="product-price">-</div>
+    </div>
+  </div>
+
+  <!-- Product 8 -->
+  <div class="product-card">
+    <img src="images/IMG-20250406-WA0057.jpg" alt="Colorful Collection">
+    <div class="product-info">
+      <div class="product-title">Vibrant Jewelry Display</div>
+      <div class="product-price">-</div>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
