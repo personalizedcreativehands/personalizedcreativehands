@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffafc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: #ffe3ec;
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 100px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #b30059;
+}
+.tagline {
+    font-style: italic;
+    color: #b30059;
+}
+footer {
+    background: #ffe3ec;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+.products {
+    padding: 20px;
+}
+.product-image {
+    width: 200px;
+    margin-top: 10px;
+}
+form {
+    padding: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
